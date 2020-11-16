@@ -7,7 +7,7 @@ public class Collatz {
 		int n = readInt("Bitte Zahl eingeben:");
 
 		if (n <= 0) {
-			writeConsole("Fehler: n>0 erwartet!");
+			writeLineConsole("Fehler: n>0 erwartet!");
 		}
 	}
 }
